@@ -1,6 +1,8 @@
 import ProjectCard from './ProjectCard';
 import movieNest from '../assets/movieNest.png'; 
 import taskManager from '../assets/taskManager.png';
+
+
 export default function ProjectsSection() {
   const projects = [
     {

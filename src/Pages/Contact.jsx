@@ -14,7 +14,6 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // هنا ممكن تضيف منطق ارسال البيانات (API أو EmailJS)
     console.log(formData);
     toast.success('Message sent successfully 🚀');
     setFormData({ name: '', email: '', message: '' });

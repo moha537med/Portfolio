@@ -6,7 +6,7 @@ function Navbar() {
     <nav className=" bg-slate-900 border-b border-slate-800 text-slate-100  px-6 py-4">
       <div className="flex justify-between items-center max-w-6xl mx-auto">
         
-        {/* Logo + Name */}
+        {/* Logo */}
         <div className="flex items-center space-x-2">
           <NavLink to="/">
             <h1 className="text-2xl font-bold text-purple-600">Mohamed Hussein</h1>

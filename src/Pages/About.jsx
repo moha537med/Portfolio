@@ -7,7 +7,7 @@ export default function About() {
     <section className="py-24  text-white">
       <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
 
-        {/* صورة شخصية */}
+        {/* Image */}
         <div className="flex justify-center md:w-1/2">
           <img 
             src={profileImg} 
@@ -16,8 +16,9 @@ export default function About() {
           />
         </div>
 
-        {/* النص */}
+        {/* Content */}
         <div className="md:w-1/2 flex flex-col justify-center">
+
           <h1 className="text-4xl md:text-5xl font-bold text-purple-400 mb-4">About Me</h1>
           <p className="text-gray-300 mb-4">
             Hi! I’m Mohamed Hussein, an IT Graduate and passionate Front-End Web Developer.
@@ -29,21 +30,25 @@ export default function About() {
             and creating projects that help improve my skills and contribute to the web development community.
           </p>
 
-          {/* Buttons / Links */}
+          {/* Links */}
           <div className="flex gap-4 mt-6 flex-wrap">
+
             <Link 
               to={"/"} 
               className="px-6 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition"
             >
               Go to Home
             </Link>
+
             <Link 
               to={"/contact"} 
               className="px-6 py-3 border border-purple-500 text-purple-400 rounded-lg hover:bg-purple-500 hover:text-white transition"
             >
               Contact Me
             </Link>
+
           </div>
+          
         </div>
 
       </div>

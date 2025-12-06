@@ -7,7 +7,7 @@ function Hero() {
     <section className="py-24 flex items-center min-h-[70vh]  px-4">
       <div className="grid md:grid-cols-2 gap-12 items-center w-full max-w-6xl mx-auto">
 
-        {/* Text Section */}
+        {/* Content */}
         <div>
           <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight">
             Hi, I’m <span className="text-purple-400">Mohamed Hussein</span>
@@ -41,7 +41,7 @@ function Hero() {
           </div>
         </div>
 
-        {/* Right Side Glow / Shape */}
+        {/* Image*/}
         <div className=" md:flex justify-center relative">
         <img 
             src={image} 
